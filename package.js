@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('2.0');
+  api.versionsFrom(['1.4', '2.0']);
   api.use(['blaze', 'templating', 'jquery'], "client");
   api.mainModule("lib.js", "client");
 });

@@ -1,3 +1,7 @@
+import { Blaze } from 'meteor/blaze';
+import { Template } from 'meteor/templating';
+import { $ } from 'meteor/jquery';
+
 Template.body.events = function(events) {
   for (var eventMap in events) {
     (function(events, eventMap) {

@@ -1,11 +1,12 @@
 Package.describe({
-  name: "gwendall:body-events",
-  summary: "Get Template.body.events() working",
-  version: "0.2.0",
-  git: "https://github.com/gwendall/meteor-body-events"
+  name: "imajus:body-events",
+  summary: "Get Template.body.events() working in Meteor 2.0",
+  version: "0.0.1",
+  git: "https://github.com/imajus/meteor-body-events"
 });
 
-Package.on_use(function(api, where) {
+Package.onUse(function(api) {
+  api.versionsFrom('2.0');
   api.use(["templating", "jquery"], "client");
-  api.add_files(["lib.js"], "client");
+  api.mainModule("lib.js", "client");
 });

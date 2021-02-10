@@ -1,18 +1,18 @@
-```diff
-- NOTE: This package is not maintained anymore.
-- If you want to help, please reach out to gwendall.esnault@gmail.com
-```
-
 Meteor Body Events
 ===================
 
 Template.body.events working
 
+Origin
+------------
+This package is exactly the same as `gwendall:body-events` except that its dependencies are updated for Meteor 2.0.
+Forked from `micktaiwan/meteor-body-events` which in turn was forked from `gwendall/meteor-body-events`.
+
 Installation
 ------------
 
 ``` sh
-meteor add gwendall:body-events
+meteor add imajus:body-events
 ```
 
 Methods

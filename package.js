@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('2.0');
+  api.versionsFrom('1.8.1');
   api.use([
     'ecmascript',
     'blaze',

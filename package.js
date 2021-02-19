@@ -1,12 +1,12 @@
 Package.describe({
   name: "imajus:body-events",
   summary: "Get Template.body.events() working in Meteor 2.0",
-  version: "0.0.2",
+  version: "0.0.3",
   git: "https://github.com/imajus/meteor-body-events"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['1.4', '2.0']);
+  api.versionsFrom('2.0');
   api.use([
     'ecmascript',
     'blaze',
